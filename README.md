@@ -56,7 +56,7 @@ user_id
   },
   "date": "August 28, 2018", 
   "total": 3
-}```
+}
 
 ## Use In Braze
 
