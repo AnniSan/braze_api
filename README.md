@@ -32,11 +32,17 @@ user_id
 ## Output
 
 {
+
  "dinner": {
+ 
     "id": "15e9e275-10bf-418a-9538-64fa0fe99ae1",
+    
     "recipe_id": "43a9dfcf-95e1-4d43-8c40-83d1d2c831ca",
+    
     "servings": 1,
+    
     "recipe_name": "Prosciutto, persimmon & arugula salad ",
+    
     "recipe_image_url": "img url"
   },
   "lunch": {
