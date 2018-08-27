@@ -31,7 +31,7 @@ user_id
 
 ## Output
 
-{
+```{
 
  "dinner": {
  
@@ -45,21 +45,34 @@ user_id
     
     "recipe_image_url": "img url"
   },
+  
   "lunch": {
+  
     "id": "11eb563b-8942-4256-9508-9ccd0d0c744f",
+    
     "recipe_id": "543d3f09356632000e1e0100",
+    
     "servings": 1,
+    
     "recipe_name": "Beef & broccoli with rice",
+    
     "recipe_image_url": "img url"
   },
   "breakfast": {
+  
     "id": "d31f7446-21be-4b34-90ad-365dbd492e9d",
+    
     "recipe_id": "572870e58198f10011a6bfe6",
+    
     "servings": 1,
+    
     "recipe_name": "Chicken breast & ricotta cheese on bread",
+    
     "recipe_image_url": "img url"
   },
+  
   "date": "August 28, 2018",
+  
   "total": 3
 }
 
