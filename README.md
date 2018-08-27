@@ -39,7 +39,6 @@ user_id
     "recipe_name": "Prosciutto, persimmon & arugula salad ",    
     "recipe_image_url": "img url"
   },
- 
   "lunch": {
     "id": "11eb563b-8942-4256-9508-9ccd0d0c744f",
     "recipe_id": "543d3f09356632000e1e0100", 
@@ -57,6 +56,7 @@ user_id
   "date": "August 28, 2018", 
   "total": 3
 }
+```
 
 ## Use In Braze
 
