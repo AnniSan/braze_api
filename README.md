@@ -1,6 +1,6 @@
-#Braze Meals API
+# Braze Meals API
 
-##Introduction
+## Introduction
 
 To personalise messages in Braze, the Meals API can be used to get information about the users upcoming/ planned meals for the next day.
 Overview
@@ -8,7 +8,7 @@ Overview
 Method: GET
 To access the correct information per user, the user_id is required in the cURL.
 
-##Authentication
+## Authentication
 
 The API can be called with basic authentication. Credentials are added to Braze.
 Status / Error Codes
@@ -16,18 +16,18 @@ Status / Error Codes
 Status 200 - Everything is working
 Status 401 - Authentication failed 
 
-##Rate limit
+## Rate limit
 
 There is no special rate limit to call this API.
 
-##Use
+## Use
 cURL: 
 http://8fit.com/api/1/connected_contents/tomorrow_pending_meals.json?user_id=3f3586be-658f-4c9a-a527-4e0299b5a230
 Params
 user_id 
 3f3586be-658f-4c9a-a527-4e0299b5a230 
 
-##Output
+## Output
 
 {
  "dinner": {
@@ -55,7 +55,7 @@ user_id
   "total": 3
 }
 
-##Use In Braze
+## Use In Braze
 
 {% connected_content http://8fit.com/api/1/connected_contents/tomorrow_pending_meals.json?user_id={{${user_id}}} :save meals :basic_auth Meals_Endpoint %} {% if {{meals.total}} < 1 %} 
 {% abort_message('Not enough meals Results') %} {% endif %} 
