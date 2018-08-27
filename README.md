@@ -19,7 +19,8 @@ Status 401 - Authentication failed
 
 ## Rate limit
 
-There is no special rate limit to call this API.
+There is no limit on that endpoint in particular, but the whole API has a limit of 900 requests/5 minutes
+(The endpoint can be removed if needed)
 
 ## Use
 ### cURL: 
