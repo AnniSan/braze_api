@@ -14,6 +14,7 @@ The API can be called with basic authentication. Credentials are added to Braze.
 Status / Error Codes
 
 Status 200 - Everything is working
+
 Status 401 - Authentication failed 
 
 ## Rate limit
